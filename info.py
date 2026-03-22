@@ -73,9 +73,9 @@ STAR_PREMIUM_PLANS = {
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://walikarviresh39_db_user:bgMjyZ9qlBWdMpre@newmoviebot.putozli.mongodb.net/?appName=newmoviebot")  # MongoDB URI for the database
-DATABASE_NAME = environ.get('DATABASE_NAME', "walikarviresh39_db_user") # Database name (default: cluster)
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'walikarviresh39') # Collection name (default: dreamcinezone_files)
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Kannada_Movie:<db_password>@newmoviebot.putozli.mongodb.net/?appName=newmoviebot")  # MongoDB URI for the database
+DATABASE_NAME = environ.get('DATABASE_NAME', "Kannada_Movie") # Database name (default: cluster)
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'newmoviebot') # Collection name (default: dreamcinezone_files)
 
 # If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
 MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False) # Type True For Turn On MULTIPLE DB FUNTION 
